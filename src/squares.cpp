@@ -11,16 +11,19 @@ using std::string;					using std::setw;
 
 
 
-int sqr(int n) {
+int sqr(int n)
+{
 	return n * n;
 }
 
-int calc_sqr(int n, int min, int max) {
+int calc_sqr(int n, int min, int max)
+{
 	if (n >= min && n <= max) return sqr(n);
 	else throw range_error("Number out of range (insert a number from " + ts(min) + " to " + ts(max) + ")");
 }
 
-int main() {
+int main()
+{
 	
 	int num;
 	

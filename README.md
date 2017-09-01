@@ -1,0 +1,1 @@
+# Just a folder for lots of single-file programs and quick auto-compilation °c°
